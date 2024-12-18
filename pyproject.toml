@@ -1,1 +1,17 @@
-W3Byb2plY3RdCm5hbWUgPSAic2lsbGFnZW50Igp2ZXJzaW9uID0gIjAuMS4wIgpkZXNjcmlwdGlvbiA9ICJBIG5ldyBwcm9qZWN0IHVzaW5nIHV2IgpyZXF1aXJlcy1weXRob24gPSAiPj0zLjgiCmRlcGVuZGVuY2llcyA9IFtdCgpbYnVpbGQtc3lzdGVtXQpyZXF1aXJlcyA9IFsiaGF0Y2hsaW5nIl0KYnVpbGQtYmFja2VuZCA9ICJoYXRjaGxpbmcuYnVpbGQiCgpbdG9vbC5ydWZmXQpsaW5lLWxlbmd0aCA9IDg4CnRhcmdldC12ZXJzaW9uID0gInB5MzgiCgpbdG9vbC5ydWZmLmxpbnRdCnNlbGVjdCA9IFsiRSIsICJGIiwgIkkiLCAiTiIsICJXIiwgIlVQIl0K
+[project]
+name = "sillagent"
+version = "0.1.0"
+description = "A new project using uv"
+requires-python = ">=3.8"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
